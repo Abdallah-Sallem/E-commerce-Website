@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByteMeNow</title>
+    <link rel="stylesheet" href="css/Ecom.css">
+    <link rel="stylesheet" href="css/login.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <div class="container top-nav">
+
+                <a href="Ecom.html" ><img src="img/logo.png" alt="" class="round-photo"></a>
+                    <form action="" class="search">
+                        <input type="search" placeholder="Search for products....">
+                        <button type="submit">Search</button>
+                    </form>
+
+            <div onclick="open_cart()" class="cart_header">
+
+                    <div class="icon_cart">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span class="count_item">0</span>
+                    </div>
+
+                    <div class="total_price">
+                        <p>My Cart  :</p>
+                        <p class="Price_cart_header">0dt</p>
+                    </div>
+
+            </div>
+
+        </div>
+
+        <nav>
+
+            <div class="links container">
+
+                <ul>
+                    <li ><a href="Ecom.html">Home</a></li> 
+                    <li><a href="all_items.html">Shop</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+
+                <div class="login_signup">
+
+                    <a href="signup.html">Join us <i class="fa-solid fa-user-plus"></i></a>
+                    
+
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <div class="cart">
+
+        <!--Top-->
+
+
+        <div  class="top_cart">
+            <h3>My cart <span>(0 Item(s) in my cart)</span> </h3>
+            <span onclick="close_cart()" class="close_cart"><i class="fa-regular fa-circle-xmark"></i></span>
+        </div>
+
+
+        <!--mid-->
+
+        <div class="items_in_cart">
+
+            <!--Item1-->
+
+
+
+        </div>
+
+
+        <!--bot-->
+
+
+
+        <div class="bottom_cart">
+
+            <div class="total">
+                <p>Total</p>
+                <p class="cart_total_price">0dt</p>
+            </div>
+
+
+            <div class="button_cart">
+                
+                <a href="checkout.html" class="btn_cart">Checkout</a>
+                <!--<button class="btn_cart trans_bg">Shop more</button>-->
+            </div>
+
+        </div>
+
+    </div>
+    
+
+    <section class="singin sec_form">
+        <div class="form_container">
+
+            <p class="title">Welcome Back</p>
+            <form action="" class="form">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <p class="page_link">
+                <a href="#" class="page_link_label">Forgot password ?</a></p>
+                <button type="submit" class="btn">Login</button>
+            </form>
+
+            <p class="sign_up_label">
+                Don't have an account ? <a href="#" class="sign-up-link">Sign up</a>
+            </p>
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="container">
+
+
+            <div class="big_row">
+                <img src="img/logo.png" alt="">
+                <div class="hotline">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="text">
+                        <h5>24/24:</h5>
+                        <h6>(+123) 123456789</h6>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus illum minima nihil, ab ea eius maxime molestiae fuga dignissimos.</p>
+            </div>
+
+
+            <div class="row">
+                <h4>FAQ & Help</h4>
+                <div class="links">
+                    <a href="#">FAQ's</a>
+                    <a href="#">Order Tracker</a>
+                    <a href="#">Events</a>
+                    <a href="#">Help center</a>
+                    <a href="#">Contacts</a>
+                
+                </div>
+            </div>
+
+
+            
+            <div class="row">
+                <h4>Shipping and Delivery</h4>
+                <div class="links">
+                    <a href="#">Delivery Information</a>
+                    <a href="#">Discount</a>
+                    <a href="#">Payment</a>
+                    <a href="#">Shipping Guide</a>
+                    <a href="#">Deliery Time</a>
+                
+                </div>
+            </div>
+
+
+
+            
+            <div class="row">
+
+                <h4>Inofrmation</h4>
+                <div class="links">
+                    <a href="#">Popular</a>
+                    <a href="#">Our services</a>
+                    <a href="#">Your Account</a>
+                    <a href="#">Privacy and Policy</a>
+                    <a href="#">Terms & conditions</a>
+            
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="bottom_footer">
+            <div class="container">
+                <p>Copyright &copy; <span>ByteMeNow </span> all rights reserved</p>
+                <div class="payment_img">
+                    <img src="img/payment-1.png" alt="">
+                    <img src="img/payment-2.png" alt="">
+                    <img src="img/payment-3.png" alt="">
+                    <img src="img/payment-4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="js/main.js"></script>
+        <script src="js/all_products.js"></script>
+
+
+
+    
+
+
+
+
+</body>
+</html>

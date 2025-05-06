@@ -1,0 +1,87 @@
+:root{
+    --main-color:rgb(233, 111, 11);
+    --dark-color:black;
+    --parg-color: grey;
+    --dark-red:red;
+    --border-color:rgb(72, 19, 94);
+    --name-item:blue;
+}
+
+
+.sec_form{
+    margin: 240px 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+
+
+}
+
+.form_container{
+    width: 400px;
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.35);
+    box-sizing: border-box;
+ 
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--main-color);
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+margin-bottom: 20px;
+outline: none;
+
+
+}
+
+
+.form input{
+    border-radius: 5px;
+    border:1px solid var(--border-color);
+    padding: 10px 15px;
+
+}
+
+.form input:focus{
+    outline: none ;
+    border-color: var(--main-color);
+}
+
+.page_link{
+    margin:0;
+    font-size: 15px;
+    text-align: end;
+}
+
+
+.btn{
+    padding: 12px;
+    border-radius: 5px;
+    border:1px solid var(--border-color);
+    background-color: var(--main-color);
+    outline:none;
+    box-shadow: rgba(0,0,0,0.35);
+    cursor: pointer;    
+    font-size: 20px;
+
+}
+
+.sign_up_label .sign-up-link{
+    font-size: 15px;
+
+
+}

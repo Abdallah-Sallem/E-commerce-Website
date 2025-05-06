@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByteMeNow</title>
+    <link rel="stylesheet" href="css/Ecom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <div class="container top-nav">
+
+                <a href="Ecom.html" ><img src="img/logo.png" alt="" class="round-photo"></a>
+                    <form action="" class="search">
+                        <input type="search" placeholder="Search for products....">
+                        <button type="submit">Search</button>
+                    </form>
+
+            <div onclick="open_cart()" class="cart_header">
+
+                    <div class="icon_cart">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span class="count_item">0</span>
+                    </div>
+
+                    <div class="total_price">
+                        <p>My Cart  :</p>
+                        <p class="Price_cart_header">0dt</p>
+                    </div>
+
+            </div>
+
+        </div>
+
+        <nav>
+
+            <div class="links container">
+
+                <ul>
+                    <li ><a href="Ecom.html">Home</a></li> 
+                    <li class="active"><a href="all_items.html">Shop</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+
+                <div class="login_signup">
+
+                    <a href="signup.html">Join us <i class="fa-solid fa-user-plus"></i></a>
+                    
+                    <a href="login.html">Have an account ? <i class="fa-solid fa-right-to-bracket"></i></a>
+
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <div class="cart">
+
+        <!--Top-->
+
+
+        <div  class="top_cart">
+            <h3>My cart <span>(0 Item(s) in my cart)</span> </h3>
+            <span onclick="close_cart()" class="close_cart"><i class="fa-regular fa-circle-xmark"></i></span>
+        </div>
+
+
+        <!--mid-->
+
+        <div class="items_in_cart">
+
+            <!--Item1-->
+
+
+
+        </div>
+
+
+        <!--bot-->
+
+
+
+        <div class="bottom_cart">
+
+            <div class="total">
+                <p>Total</p>
+                <p class="cart_total_price">0dt</p>
+            </div>
+
+
+            <div class="button_cart">
+                
+                <a href="checkout.html" class="btn_cart">Checkout</a>
+                <!--<button class="btn_cart trans_bg">Shop more</button>-->
+            </div>
+
+        </div>
+
+    </div>
+    
+    <div class="top_page">
+        <div class="container">
+            <h1>Explore new tech with ByteMeNow</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero cumque placeat delectus, deleniti eligendi alias eius? Laudantium voluptates ad asperiores.</p>
+        </div>
+    </div>
+
+    <section class="all_products">
+        <div class="container">
+
+            <div class="filter">
+                <h2>filter</h2>
+                <div class="filter_item">
+                    <h4>
+                        Categories
+                    </h4>
+                    <div class="content">
+                        <div class="item">
+                            <span>Phones</span>
+                            <input type="checkbox">
+                        </div>
+
+                        <div class="item">
+                            <span>Tablets</span>
+                            <input type="checkbox">
+                        </div>
+
+                        <div class="item">
+                            <span>TV</span>
+                            <input type="checkbox">
+                        </div>
+
+                        <div class="item">
+                            <span>Electronics</span>
+                            <input type="checkbox">
+                        </div>
+
+                        <div class="item">
+                            <span>watches</span>
+                            <input type="checkbox">
+                        </div>
+
+                        <div class="item">
+                            <span>Fashion</span>
+                            <input type="checkbox">
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="filter_item">
+                    <h4>
+                        Brand
+                    </h4>
+                    <div class="content">
+                        <div class="item">
+                            <span>Apple</span>
+                            <input type="checkbox">
+                        </div>
+
+                        <div class="item">
+                            <span>Samsung</span>
+                            <input type="checkbox">
+                        </div>
+
+                        <div class="item">
+                            <span>Oppo</span>
+                            <input type="checkbox">
+                        </div>
+
+                        <div class="item">
+                            <span>Adidas</span>
+                            <input type="checkbox">
+                        </div>
+
+                        <div class="item">
+                            <span>Jadida</span>
+                            <input type="checkbox">
+                        </div>
+
+                        <div class="item">
+                            <span>Vitalait</span>
+                            <input type="checkbox">
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="filter_item">
+                    <h4>
+                        Color
+                    </h4>
+                    <div class="content">
+                        <div class="item">
+                            <span class="color" style="background-color: blue;" ></span>
+                            <input type="checkbox">
+                        </div>
+
+                        <div class="item">
+                            <span class="color" style="background-color: red;"></span>
+                            <input type="checkbox">
+                        </div>
+
+                        <div class="item">
+                            <span class="color" style="background-color: green;"></span>
+                            <input type="checkbox">
+                        </div>
+
+                        <div class="item">
+                            <span class="color" style="background-color: yellow;"></span>
+                            <input type="checkbox">
+                        </div>
+
+                        <div class="item">
+                            <span class="color" style="background-color: brown;"></span>
+                            <input type="checkbox">
+                        </div>
+
+                        <div class="item">
+                            <span class="color" style="background-color: black;"></span>
+                            <input type="checkbox">
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div id="product_dev" class="products_dev">
+
+            </div>
+        </div>
+
+
+        <div class="pagination">
+            <span class="btn_page prev"><i class="fa-solid fa-backward-step"></i></span>
+            <span class="num_page active">1</span>
+            <span class="num_page">2</span>
+            <span class="num_page">3</span>
+            <span class="num_page">4</span>
+            <span class="btn_page next"><i class="fa-solid fa-forward-step"></i></span>
+
+
+        </div>
+
+    </section>
+
+
+    <div class="back_to_top">
+        <p>Back to top</p>
+
+    </div>
+
+
+    <footer>
+        <div class="container">
+
+
+            <div class="big_row">
+                <img src="img/logo.png" alt="">
+                <div class="hotline">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="text">
+                        <h5>24/24:</h5>
+                        <h6>(+123) 123456789</h6>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus illum minima nihil, ab ea eius maxime molestiae fuga dignissimos.</p>
+            </div>
+
+
+            <div class="row">
+                <h4>FAQ & Help</h4>
+                <div class="links">
+                    <a href="#">FAQ's</a>
+                    <a href="#">Order Tracker</a>
+                    <a href="#">Events</a>
+                    <a href="#">Help center</a>
+                    <a href="#">Contacts</a>
+                
+                </div>
+            </div>
+
+
+            
+            <div class="row">
+                <h4>Shipping and Delivery</h4>
+                <div class="links">
+                    <a href="#">Delivery Information</a>
+                    <a href="#">Discount</a>
+                    <a href="#">Payment</a>
+                    <a href="#">Shipping Guide</a>
+                    <a href="#">Deliery Time</a>
+                
+                </div>
+            </div>
+
+
+
+            
+            <div class="row">
+
+                <h4>Inofrmation</h4>
+                <div class="links">
+                    <a href="#">Popular</a>
+                    <a href="#">Our services</a>
+                    <a href="#">Your Account</a>
+                    <a href="#">Privacy and Policy</a>
+                    <a href="#">Terms & conditions</a>
+            
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="bottom_footer">
+            <div class="container">
+                <p>Copyright &copy; <span>ByteMeNow </span> all rights reserved</p>
+                <div class="payment_img">
+                    <img src="img/payment-1.png" alt="">
+                    <img src="img/payment-2.png" alt="">
+                    <img src="img/payment-3.png" alt="">
+                    <img src="img/payment-4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="js/main.js"></script>
+        <script src="js/all_products.js"></script>
+
+
+
+    
+
+
+
+
+</body>
+</html>
